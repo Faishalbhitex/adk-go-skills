@@ -14,3 +14,6 @@
 .env
 creds.json
 *.key
+
+# Ensure GEMINI.md is always readable
+!GEMINI.md
