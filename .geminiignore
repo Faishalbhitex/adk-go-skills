@@ -1,0 +1,16 @@
+# .geminiignore
+# Mengontrol file yang bisa dibaca oleh Gemini CLI untuk menjaga konteks dan keamanan.
+
+# Git history
+.git/
+
+# Large binary files
+*.pdf
+*.zip
+*.png
+*.jpg
+
+# Sensitive data
+.env
+creds.json
+*.key
